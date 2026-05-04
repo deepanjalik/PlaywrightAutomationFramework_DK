@@ -1,0 +1,10 @@
+{
+  "cucumberautocomplete.steps": 
+  [
+    "tests/POMFW1/StepDefinitions/*.js"
+  ],
+  "cucumberautocomplete.features":
+  [
+    "tests/POMFW1/FeatureFile/*.feature"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "playwight",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@azure/identity": "^4.13.1",
+    "@azure/playwright": "^1.1.5",
+    "@cucumber/cucumber": "^12.8.2",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.1.0",
+    "cucumber": "npx cucumber-js tests/POMFW1/FeatureFile/Login.feature --require tests/POMFW1/StepDefinitions/*.js"
+  }
+}
